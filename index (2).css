@@ -1,0 +1,139 @@
+
+
+body .menu1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 144px;
+    gap: 12px;
+}
+
+body .menu1 .izquierda{
+    align-items: center;
+    display: flex;
+}
+
+body .menu1 .izquierda .logo{
+    background: #333333;
+    color: #f1f1f1;
+    padding: 8px 24px;
+    margin-right: 80px;
+    border-radius: 5px;
+}
+
+body .menu1 .izquierda .menuitems1{
+    align-items: center;
+    display: flex;
+    gap: 34px;
+}
+body .menu1 .logo{
+    align-items: flex-start;
+    background: #333333;
+    border-radius: 5px;
+    color: #ffffff; 
+    font-family: 'Merriweather Sans';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 8px 48px;
+    width: 169px;
+    height: 56px;
+}
+
+
+body .menu1 .derecha {
+    align-items: center;
+    display: flex;
+    gap: 34px;
+}
+
+body .menu1 .derecha .botones{
+    display: flex;
+}
+
+body .menu1 .botones{
+    gap: 32px;
+}
+
+body .menu1 .botton1{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #000000; 
+    font-family: 'Merriweather Sans';
+    font-weight: 400;
+    font-size: 24px;
+    height: 62px;
+    line-height: 30px;
+    padding: 16px 48px;
+    width: 166px;
+}
+
+body .menu1 .botton2{
+    background: #333333;
+    border-radius: 5px;
+    color: #ffffff; 
+    font-family: 'Merriweather Sans';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    height: 62px;
+    padding: 16px 48px;
+    width: 166px;
+}
+
+body .footer{
+    align-items: center;
+    display: flex;
+    padding: 100px 200px;
+    justify-content: space-between;
+    background: #121212;
+}
+
+body .footer .izquierda .logo2{
+    color: #ffffff;
+
+}
+
+body .footer .izquierda .logo2 > span{
+    font-size: 50px;
+}
+
+body .footer .izquierda > p{
+    color: #ffffff;
+    width: 350px;
+}
+
+body .footer .izquierda .logos{
+    color: #ffffff;
+    display: flex;
+    gap: 32px;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+body .footer .derecha{
+    color: #ffffff;
+    display: flex;
+    gap: 24px;
+    
+}
+
+body .footer .derecha .info{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+body .fondo{
+    background: #333333;
+    color: #ffffff;
+    display: flex;
+    font-size: 13px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 0px;
+    
+}
